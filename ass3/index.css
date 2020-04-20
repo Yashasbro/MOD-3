@@ -1,0 +1,18 @@
+#brand{font-weight: bold;font-size: 2em;}
+#menu{margin-top: 1.2em;}
+h3{text-align: center;}
+#items{margin-top: 30px;background-color: lightgray;}
+#abt{margin:0.5em;font-size: 2em;}
+#but{
+	background-color: transparent;border:0.1em solid black;border-radius: 0.3em;display: none;
+}
+.navbar-toggler{display: none;}
+ul{background-color: lightblue;border-right: 0.1em solid black;border-left: 0.1em solid black;}
+li{border-bottom: 0.1em solid black;}
+nav{background-color: gray;}
+a{text-align: center;color:black;font-size: 1.5em;}
+@media(max-width: 767px){
+	.navbar-toggler{display: block;}
+}
+@media(min-width:768px ){#collapsibleNavbar{display: none;
+	}}
